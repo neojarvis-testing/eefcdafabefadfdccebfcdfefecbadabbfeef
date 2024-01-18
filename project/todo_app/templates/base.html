@@ -1,0 +1,28 @@
+<!-- todo_list/todo_app/templates/base.html -->
+<!-- Base template -->
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/todo.css' %}">
+
+    <title>To-do Lists</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 onclick="location.href='{% url "index" %}'">TO-DO TASKS</h1>
+    </div>
+    <div class="content">
+        {% block content %}
+        This content will be replaced by different HTML code for each page.
+        {% endblock %}
+    </div>
+</body>
+
+</html>

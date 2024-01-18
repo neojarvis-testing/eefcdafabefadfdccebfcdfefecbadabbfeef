@@ -1,0 +1,85 @@
+/* todo_app/static/css/todo.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #202020;
+    background-repeat: no-repeat;
+    color: #e0d7d7;
+    margin: 0;
+}
+
+.header {
+    background-color: #bd6efd;
+    padding: 1em;
+    text-align: center;
+    margin-top: 1%;
+    margin: 5%;    
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.301);
+}
+
+.header h1 {
+    color: white;
+    cursor: pointer;
+}
+.header h1:hover {
+    transform: scale(1.1); 
+}
+
+.content {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eb8744;
+    color: #050505;
+    cursor: pointer;    
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.301);
+}
+
+.content:hover {
+    transform: scale(1.1); 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="button"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 6%;
+}
+
+input[type="button"]:hover {
+    background-color: #2980b9;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Add more styles as needed */

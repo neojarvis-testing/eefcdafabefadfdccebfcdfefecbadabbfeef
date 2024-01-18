@@ -1,0 +1,1 @@
+cat C:\Users\HP\Downloads\Django\todo_app\requirements.txt
